@@ -1,0 +1,33 @@
+@import url(../fonts/fonts.css);
+
+body{
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: "Inter Regular", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.35;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.content-section{
+  box-sizing: border-box;
+  width: 360px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100px;
+
+}
+.content-section_theme_dark{
+  background-color: #131313;
+  color: #F5F5F5;
+}
+.content-section_theme_bright{
+  background-color: #FEE42A;
+  color: #131313;
+  font-size: 20px;
+}
