@@ -2,11 +2,11 @@
 
 body{
   margin: 0;
-  background-color: #1e1e1e;
   font-family: Inter, sans-serif;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.35;
+  background-color: #1e1e1e;
 }
 h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   margin: 0;
@@ -23,20 +23,20 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 
 }
 .content-section_theme_dark{
-  background-color: #131313;
   color: #F5F5F5;
+  background-color: #131313;
 }
 .content-section_theme_bright{
-  background-color: #FEE42A;
   color: #131313;
   line-height: 1.35;
+  background-color: #FEE42A;
 }
 
 .header{
-  padding: 24px 20px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 24px 20px;
 }
 .header__logo{
   display: block; 
@@ -102,9 +102,9 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 .intro__title{
   width: 203px;
   font-family: Inter;
+  font-weight: 400;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 1.2;
 }
 .intro__date{
@@ -112,14 +112,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   white-space: nowrap;
 }
 .intro__main-text{
-  margin-top: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin-top: 24px;
 
   color: #F5F5F5;
-  line-height: 1.35;
   font-size: 16px;
+  line-height: 1.35;
 }
 
 
@@ -128,16 +128,16 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   padding: 40px 20px;
 }
 .content-section__subtitle{
+  margin-bottom: 32px;
   font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.15;
-  margin-bottom: 32px;
 }
 .content-section__introduction{
+  margin-bottom: 32px;
   font-size: 20px;
   line-height: 1.35;
-  margin-bottom: 32px;
 }
 .content-section__list{
   display: flex;
@@ -171,12 +171,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   padding: 20px;
 }
 .card_theme_dark{
-  background-color: #343434;
   color: #F5F5F5;
+  background-color: #343434;
 }
 .card_theme_bright{
-  background-color: #FEE42A;
   color: #131313;
+  background-color: #FEE42A;
 }
 
 .card__author{
@@ -191,8 +191,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 .card__author-name{
   font-family: Inter;
   font-weight: 700;
-  line-height: 1.35;
   font-size: 16px;
+  line-height: 1.35;
 }
 .card__content{
   display: flex;
@@ -210,11 +210,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
 }
 
 .footer{
-  border-top: 1px solid #FEE42A;
-  padding: 20px;
 
   display: flex;
   justify-content: space-between;
+  border-top: 1px solid #FEE42A;
+  padding: 20px;
   font-family: Inter;
   font-weight: 400;
 }
@@ -223,10 +223,10 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   line-height: 1.35;
 }
 .footer__links{
-  list-style-type: none;
   display: flex;
   gap: 16px;
 
   font-size: 14px;
   line-height: 1.25;
+  list-style-type: none;
 }
