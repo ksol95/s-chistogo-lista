@@ -1,6 +1,6 @@
 @import url(../fonts/fonts.css);
 
-body{
+body {
   margin: 0;
   font-family: Inter, sans-serif;
   font-weight: 400;
@@ -8,64 +8,68 @@ body{
   line-height: 1.35;
   background-color: #1e1e1e;
 }
-h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
   margin: 0;
   padding: 0;
 }
 
-
-
-.content-section{
+.content-section {
   box-sizing: border-box;
   width: 360px;
   margin: auto;
   padding: 40px 20px;
-
 }
-.content-section_theme_dark{
-  color: #F5F5F5;
+.content-section_theme_dark {
+  color: #f5f5f5;
   background-color: #131313;
 }
-.content-section_theme_bright{
+.content-section_theme_bright {
   color: #131313;
   line-height: 1.35;
-  background-color: #FEE42A;
+  background-color: #fee42a;
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 24px 20px;
 }
-.header__logo{
-  display: block; 
+.header__logo {
+  display: block;
   width: 78px;
 }
-.header__logo-image{
+.header__logo-image {
   width: 100%;
 }
-.header__menu-list{
+.header__menu-list {
   display: flex;
   flex-direction: column;
   gap: 12px;
   list-style: none;
 }
-.header__menu-item{
-  color:#F5F5F5;
+.header__menu-item {
+  color: #f5f5f5;
   font-size: 16px;
   line-height: 1.2;
 }
-.header__menu-link{
+.header__menu-link {
   text-decoration: underline;
 }
-.header__menu-item_active .header__menu-link{
+.header__menu-item_active .header__menu-link {
   text-decoration: none;
 }
 
-
-
-.cover{
+.cover {
   min-height: 258px;
   padding: 7px 24px 32px 20px;
   background-image: url(../images/cover.svg);
@@ -73,33 +77,33 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   background-position: right center;
   background-size: 95% auto;
 }
-.cover__title{
-  color:#fff;
-  font-family: 'EB Garamond', serif;
+.cover__title {
+  color: #fff;
+  font-family: "EB Garamond", serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1;
 }
-.accent-span{
+.accent-span {
   display: block;
 }
-.text-center{
+.text-center {
   text-align: center;
 }
-.text-right{
+.text-right {
   text-align: right;
 }
 
-.intro{
+.intro {
   padding: 0 20px 38px;
 }
-.intro__heading{
+.intro__heading {
   display: flex;
   justify-content: space-between;
   gap: 22px;
   color: #ccc;
 }
-.intro__title{
+.intro__title {
   width: 203px;
   font-family: Inter;
   font-weight: 400;
@@ -107,39 +111,37 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   font-style: normal;
   line-height: 1.2;
 }
-.intro__date{
+.intro__date {
   line-height: 1.2;
   white-space: nowrap;
 }
-.intro__main-text{
+.intro__main-text {
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-top: 24px;
 
-  color: #F5F5F5;
+  color: #f5f5f5;
   font-size: 16px;
   line-height: 1.35;
 }
 
-
-
-.reasons{
+.reasons {
   padding: 40px 20px;
 }
-.content-section__subtitle{
+.content-section__subtitle {
   margin-bottom: 32px;
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 1.15;
 }
-.content-section__introduction{
+.content-section__introduction {
   margin-bottom: 32px;
   font-size: 20px;
   line-height: 1.35;
 }
-.content-section__list{
+.content-section__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -147,22 +149,21 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   font-size: 16px;
   line-height: 1.35;
 }
-.content-section__list-accent{
+.content-section__list-accent {
   font-weight: 700;
 }
 
-
-.how-to{
+.how-to {
   padding: 40px 20px 60px;
 }
-.card-list{
+.card-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
 
   list-style-type: none;
 }
-.card{
+.card {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -170,59 +171,58 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote{
   border-radius: 30px;
   padding: 20px;
 }
-.card_theme_dark{
-  color: #F5F5F5;
+.card_theme_dark {
+  color: #f5f5f5;
   background-color: #343434;
 }
-.card_theme_bright{
+.card_theme_bright {
   color: #131313;
-  background-color: #FEE42A;
+  background-color: #fee42a;
 }
 
-.card__author{
-  display:flex;
+.card__author {
+  display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.card__author-photo{
+.card__author-photo {
   width: 100px;
   height: 100px;
 }
-.card__author-name{
+.card__author-name {
   font-family: Inter;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.35;
 }
-.card__content{
+.card__content {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.card__title{
-  font-family:'EB Garamond', serif;
+.card__title {
+  font-family: "EB Garamond", serif;
   font-weight: 500;
   font-size: 22px;
   line-height: 1.35;
 }
-.card__text{
+.card__text {
   line-height: 1.35;
 }
 
-.footer{
-
+.footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #FEE42A;
+  border-top: 1px solid #fee42a;
   padding: 20px;
   font-family: Inter;
   font-weight: 400;
 }
-.footer__copy{
+.footer__copy {
   font-size: 16px;
   line-height: 1.35;
 }
-.footer__links{
+.footer__links {
   display: flex;
   gap: 16px;
 
